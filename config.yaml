@@ -130,7 +130,7 @@ params:
   experience:
     enable: true
     items:
-      - job: "Software and FPGA Engineer"
+      - job: "Software and FPGA developer"
         company: "Carallon Ltd"
         companyUrl: "https://www.carallon.com/"
         date: "April 2022 - present"
@@ -191,46 +191,54 @@ params:
 
   # Education
   education:
-    enable: false
+    enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "General Certificates of Secondary Education"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Southgate School"
+          url: "http://www.southgate.enfield.sch.uk/"
+        date: "2012 - 2017"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+          I have completed 11 GCSEs achieveing high grades in all subjects, whether it was a humanity or science.
+          
+          Extracurricular Activities:
+            - Participated in the enigma challenge.
+            - Participated in The Children's University programme.
+            - Attended and helped lead after school clubs and support groups
+      - title: "A-Levels"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+          name: "Dame Alice Owen's School"
+          url: "https://damealiceowens.herts.sch.uk/"
+        date: "2007 - 2019"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          My time spend studying a smaller selection of subjects ignited my passion for engineering
+          A-Levels chosen:
+          - Mathematics
+          - Further Mathematics
+          - Physics
+          - Chemistry
+          - Polish
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          Extracurricular Activities:
+            - Computing society - Creating a room timetabling system, integrating with the existing commercial system used by the school.
+            - Mathematics support sessions - Supporting and mentoring younger students in the school
+      - title: "University"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+          name: "Imperial College London"
+          url: "https://www.imperial.ac.uk/"
+        date: "2019 - Present"
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Department Page"
+          enable: false
+          url: "https://www.imperial.ac.uk/electrical-engineering/"
+        content: |-
+          I study Electrical and Electronic Engineering, covering everything from power transmission, to the structure of semiconductors.
 
+          Extracurricular Activities:
+            - Concert hall management group - Responsible for all maintenance
+            - Sound Director - (Dramatic Society)[https://dramsoc.org/]
+            - Technical Director - (Dramatic Society)[https://dramsoc.org/]
   # Achievements
   achievements:
     enable: false
