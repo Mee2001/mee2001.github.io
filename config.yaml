@@ -148,14 +148,29 @@ params:
           enable: true
           name: "Gallery"
           url: /av/gigs
-        content: |
-          I offer sound, lighting, and video design services for the live events industry, working at all levels - from
+        content: |-
+          I offer sound, lighting, and video design services for the live events industry, working at all levels - including PM (overseeing all technical aspects of a show).
+          
+          Previous clients include:
+          - Soho Garden Dubai
+          - The London Cabaret Club
+          - Corporate
+          - University Societies
+          - Schools
+          - IC SilFest
+          - IC Summer Ball
 
+      - job: "Electronics Repair"
+        company: "Device Repair"
+        date: "April 2022 - present"
+        featuredLink:
+          enable: false
+        content: "I am currently working as a software and FPGA developer at [Carallon Ltd.](https://www.carallon.com/) in London, UK. I am currently working on a project that will significantly improve the usability of the Brompton Tessera video porccessing system in future firmware releases."
       
 
   # Education
   education:
-    enable: true
+    enable: false
     # index: true
     items:
       - title: "Master of Business Administration"
@@ -197,7 +212,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -215,7 +230,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
