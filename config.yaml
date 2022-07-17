@@ -13,29 +13,22 @@ markup:
 
 Menus:
   main:
-    - identifier: gallery
+    - identifier: dropdown
+      title: Example dropdown menu
       name: Gallery
-      title: Photos of work
-      url: /gallery
+      weight: 3
+    - identifier: dropdown1
+      title: AV Gigs
+      name: AV Gigs
+      url: /av/gigs
+      parent: dropdown
+      weight: 1
+    - identifier: dropdown2
+      title: Projects
+      name: Projects
+      url: /#projects
+      parent: dropdown
       weight: 2
-
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
 
 params:
   title: "Portfolio"
@@ -137,65 +130,28 @@ params:
   experience:
     enable: true
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "Software and FPGA Engineer"
+        company: "Carallon Ltd"
+        companyUrl: "https://www.carallon.com/"
+        date: "April 2022 - present"
         featuredLink:
           enable: true
           name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          url: "https://www.bromptontech.com/"
+        content: "I am currently working as a software and FPGA developer at [Carallon Ltd.](https://www.carallon.com/) in London, UK. I am currently working on a project that will significantly improve the usability of the Brompton Tessera video porccessing system in future firmware releases."
 
-      - job: "Software Developer"
-        company: "Amazon"
+      - job: "Sound Lighting and Video Design"
+        company: "Sole Trader"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "2018 - Present"
         featuredLink:
           enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          name: "Gallery"
+          url: /av/gigs
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I offer sound, lighting, and video design services for the live events industry, working at all levels - from
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      
 
   # Education
   education:
@@ -321,5 +277,3 @@ params:
       twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
-
-gallery:
