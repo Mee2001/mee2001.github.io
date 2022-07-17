@@ -1,11 +1,11 @@
 baseURL: "https://mee2001.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Victor Starzec"
 theme: hugo-profile
 
 Paginate: 3
 disqusShortname: gurusabarish
-googleAnalytics: G-DWJJVE27WD
+googleAnalytics: G-1RWENKB7VH
 
 markup:
   goldmark:
@@ -14,15 +14,9 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    
     - identifier: gallery
       name: Gallery
-      title: Blog posts
+      title: Photos of work
       url: /gallery
       weight: 2
 
@@ -45,8 +39,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Victor's Portfolio"
+  description: Who am I and what do I do?
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -95,9 +89,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Victor."
+    # subtitle: "I build things for the web"
+    content: "Electrical and Electronic Engineering Student. Freelancer. Volunteer."
     image: /images/hero.svg
     button:
       enable: true
