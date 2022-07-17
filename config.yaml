@@ -142,7 +142,6 @@ params:
 
       - job: "Sound Lighting and Video Design"
         company: "Sole Trader"
-        companyUrl: "https://example.com"
         date: "2018 - Present"
         featuredLink:
           enable: true
@@ -162,11 +161,33 @@ params:
 
       - job: "Electronics Repair"
         company: "Device Repair"
-        date: "April 2022 - present"
+        date: "2014 - present"
         featuredLink:
           enable: false
-        content: "I am currently working as a software and FPGA developer at [Carallon Ltd.](https://www.carallon.com/) in London, UK. I am currently working on a project that will significantly improve the usability of the Brompton Tessera video porccessing system in future firmware releases."
-      
+        content: "I offer board level electronic device repair. This often involves precise surface mount soldering and reverse engineering products where support documentation is not available"
+
+      - job: "Tutoring GCSE"
+        company: "Tuition"
+        date: "2017 - 2019"
+        featuredLink:
+          enable: false
+        content: "Assisted in the preparation of students for GCSE exams. <br><br>Subjects:<br>- Sciences<br>- Mathematics<br>- Electronics"
+
+      - job: "Swimming instructor"
+        company: "ESS"
+        companyUrl: "https://www.enfieldswimsquad.org/"
+        date: "2017 - 2019"
+        featuredLink:
+          enable: false
+        content: "Taught children of all ages to swim independently"
+
+      - job: "Software developer"
+        company: "Metaswitch"
+        companyUrl: "https://www.metaswitch.com/"
+        date: "2016"
+        featuredLink:
+          enable: false
+        content: "Worked with a software development team to write code to interface with SQL databases, reformat database files and ease the process of sending technical emails to customers."
 
   # Education
   education:
