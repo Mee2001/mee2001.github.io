@@ -18,15 +18,19 @@
         {{ if not .Params.draft }}
         <div class="col-lg-4 col-md-6 my-3">
             <div class="card my-3 h-100" title="{{ .Title }}">
+                {{ if .Params.cover_image }}
                 <div class="card-head">
-                    {{ if .Params.cover_image }}
-                        {{ $cov_image := resources.Get .Params.cover_image }}
-                        {{ $cov_image := $cov_image.Resize "1920x q90 Box" }}
-                        <img src="{{ $cov_image.RelPermalink }}" class="card-img-top">
-                    {{ else }}
-                        <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
-                    {{ end }}
+                    {{ $cov_image := resources.Get .Params.cover_image }}
+                    {{ $cov_image := $cov_image.Resize "1920x q90 Box" }}
+                    <img src="{{ $cov_image.RelPermalink }}" class="card-img-top">
                 </div>
+                {{ else }}
+                {{ if .Params.image }}
+                <div class="card-head">
+                    <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+                {{ end }}
                 <div class="card-body bg-transparent p-3">
                     <div class="pb-2 bg-transparent">
                         {{ range .Params.badges }}
