@@ -13,8 +13,8 @@ cover_image: "projects/analog_synth/general_schematic.png"
 images:
  - src: "projects/analog_synth/filter.png"
  - src: "projects/analog_synth/general_schematic.png"
- - src: "projects/analog_synth/keyboard_circuit.png"
  - src: "projects/analog_synth/lfo.png"
  - src: "projects/analog_synth/vca.png"
  - src: "projects/analog_synth/vco.png"
+ - src: "projects/analog_synth/keyboard_circuit.png"
 ---

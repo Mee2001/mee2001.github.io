@@ -159,6 +159,17 @@ params:
           - IC SilFest
           - IC Summer Ball
 
+      - job: "Amateur Drama Technician"
+        company: "Volunteer"
+        date: "2013 - Present"
+        featuredLink:
+          enable: true
+          name: "Gallery"
+          url: /av/gigs
+        content: |-
+          I have been working with amateur drama and prodution groups for many years.
+          I have frequently taken positions of responsibility, such as sound director, and technical director.
+
       - job: "Electronics Repair"
         company: "Device Repair"
         date: "2014 - present"
