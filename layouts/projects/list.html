@@ -21,6 +21,7 @@
                 <div class="card-head">
                     {{ if .Params.cover_image }}
                         {{ $cov_image := resources.Get .Params.cover_image }}
+                        {{ $cov_image := $cov_image.Resize "1920x q90 Box" }}
                         <img src="{{ $cov_image.RelPermalink }}" class="card-img-top">
                     {{ else }}
                         <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
