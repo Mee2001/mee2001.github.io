@@ -223,7 +223,7 @@ params:
           url: "https://damealiceowens.herts.sch.uk/"
         date: "2007 - 2019"
         content: |-
-          My time spend studying a smaller selection of subjects ignited my passion for engineering
+          My time spent studying a smaller selection of subjects ignited my passion for engineering
           A-Levels chosen:
           - Mathematics
           - Further Mathematics
@@ -248,8 +248,8 @@ params:
 
           Extracurricular Activities:
             - Concert hall management group - Responsible for all maintenance
-            - Sound Director - (Dramatic Society)[https://dramsoc.org/]
-            - Technical Director - (Dramatic Society)[https://dramsoc.org/]
+            - Sound Director - [Dramatic Society](https://dramsoc.org/)
+            - Technical Director - [Dramatic Society](https://dramsoc.org/)
   # Achievements
   achievements:
     enable: true
