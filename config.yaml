@@ -14,7 +14,7 @@ markup:
 Menus:
   main:
     - identifier: dropdown
-      title: Example dropdown menu
+      title: Gallery dropdown
       name: Gallery
       weight: 3
     - identifier: dropdown1
@@ -26,7 +26,7 @@ Menus:
     - identifier: dropdown2
       title: Projects
       name: Projects
-      url: /#projects
+      url: /projects
       parent: dropdown
       weight: 2
 
@@ -201,9 +201,9 @@ params:
         date: "2012 - 2017"
         content: |-
           I have completed 11 GCSEs achieveing high grades in all subjects, whether it was a humanity or science.
-          
+
           Extracurricular Activities:
-            - Participated in the enigma challenge.
+            - Participated in the Enigma Challenge.
             - Participated in The Children's University programme.
             - Attended and helped lead after school clubs and support groups
       - title: "A-Levels"
@@ -241,77 +241,37 @@ params:
             - Technical Director - (Dramatic Society)[https://dramsoc.org/]
   # Achievements
   achievements:
-    enable: false
+    enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Gold DofE
+        content: Completed the Gold Duke of Edinburgh award
+        url: https://www.dofe.org/
+      - title: MENSA
+        content: Entered the society while at secondary school
+        url: https://www.mensa.org.uk/
+      - title: G&T
+        content: Enrolled on the Gifted and Talented register
+      - title: Outstanding Contribution to School Life
+        content: Recieved the award at the end of year ceremony (A-Levels)
+      - title: Outsdanding Service Award
+        content: Received while at Imperial College London
+        url: https://www.imperialcollegeunion.org/unionawards22-nominees/
+      - title: Overall year award
+        content: Received the "Head of Transition Award" (year 7-9)"
+      - title: UKMT
+        content: Regularly received certificates in the annual UK Mathematics Challenge
+        url: https://www.ukmt.org.uk/
 
   # projects
   projects:
-    enable: false
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+    enable: true
 
   #Contact
   contact:
     enable: true
-    content: Whether you have a question or just want to say hi, I’ll try my best to get back to you quickly!
+    content: "Whether you have a question or just want to say hi, I’ll try my best to get back to you quickly!"
     email: vs419@ic.ac.uk
-    btnName: Mail me
+    btnName: E-Mail me
 
   footer:
     recentPosts: false

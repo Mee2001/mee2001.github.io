@@ -1,6 +1,7 @@
 ---
-title: "Gig Photos"
-date: 2022-06-25T18:35:46+05:30
+title: "Production Photos"
+summary: "A mixture of photos from various productions"
+date: 2022-07-18T02:48:46+01:00
 draft: false
 description: "Here is a glimpse of the gigs I have worked on at all levels, in numerous places - from London to Dubai.<br><br>Do [get in touch](mailto:victor01.s@live.co.uk) if you are interested in collaborating!"
 button:
